@@ -1,0 +1,19 @@
+# Віртуальне середовище
+.venv/
+venv/
+
+# Кеш Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Кеш та звіти Ruff
+.ruff_cache/
+
+# Дані, що генеруються динамічно (бази користувачів, журнали подій)
+labs/lab01/data/*.csv
+labs/lab01/data/*.json
+
+# Файли IDE
+.idea/
+.vscode/
